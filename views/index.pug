@@ -3,7 +3,7 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-   div
+  div
     if user
       div
         a(href="/logout") #{user.username} をログアウト
